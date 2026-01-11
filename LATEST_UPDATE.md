@@ -2,8 +2,8 @@
 
 |   rank | title                      |   vote_average |
 |-------:|:---------------------------|---------------:|
-|      1 | People We Meet on Vacation |          7     |
-|      2 | Predator: Badlands         |          7.709 |
+|      1 | Predator: Badlands         |          7.7   |
+|      2 | People We Meet on Vacation |          7.1   |
 |      3 | Zootopia 2                 |          7.581 |
-|      4 | Avatar: Fire and Ash       |          7.4   |
-|      5 | The Housemaid              |          7.179 |
+|      4 | Avatar: Fire and Ash       |          7.356 |
+|      5 | xXx                        |          5.981 |
