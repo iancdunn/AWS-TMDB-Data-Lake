@@ -1,6 +1,6 @@
 # Serverless TMDB Data Lake
 
-A fully automated, serverless ETL pipeline that tracks daily movie trends. This project leverages **GitHub Actions** as a compute engine to extract data from the **TMDB API**, transform it using **Pandas**, and load it into a persistent CSV-based data lake.
+A fully automated ETL pipeline that tracks daily movie trends. This project leverages **GitHub Actions** as a compute engine to extract data from the **TMDB API**, transform it using **Pandas**, and load it into a persistent CSV-based data lake.
 
 ## Project Overview
 
