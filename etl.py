@@ -30,6 +30,7 @@ def extract_transform_load():
 
     #Generates a static view for quick consumption
     top_5 = df.head(5)[['rank', 'title', 'vote_average']]
+    top_5 = top_5.rename(columns = {'rank': 'Rank', 'title': 'Movie', 'vote_average': 'Rating'}
     
     with open('LATEST_UPDATE.md', 'w') as f:
         f.write(f"# Daily Movie Trends: {curr_date}\n\n")
@@ -40,3 +41,4 @@ if __name__ == "__main__":
         raise ValueError("Missing TMDB API Key.")
     
     extract_transform_load()
+
