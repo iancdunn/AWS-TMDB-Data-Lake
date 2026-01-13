@@ -1,9 +1,9 @@
-# Daily Movie Trends: 2026-01-12
+# Daily Movie Trends: 2026-01-13
 
-|   rank | title                      |   vote_average |
-|-------:|:---------------------------|---------------:|
-|      1 | One Battle After Another   |          7.4   |
-|      2 | Hamnet                     |          7.8   |
-|      3 | Predator: Badlands         |          7.761 |
-|      4 | People We Meet on Vacation |          7.18  |
-|      5 | Wicked: For Good           |          6.7   |
+|   Rank | Movie                                               |   Rating |
+|-------:|:----------------------------------------------------|---------:|
+|      1 | Rental Family                                       |    7.8   |
+|      2 | One Last Adventure: The Making of Stranger Things 5 |    7.176 |
+|      3 | One Battle After Another                            |    7.444 |
+|      4 | Song Sung Blue                                      |    7.4   |
+|      5 | 28 Years Later: The Bone Temple                     |    8.2   |
