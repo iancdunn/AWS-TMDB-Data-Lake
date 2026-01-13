@@ -21,7 +21,10 @@ jobs:
           python-version: '3.9'
 
       - name: Install Dependencies
-        run: pip install pandas requests tabulate
+        run: pip install pandas requests tabulate pytest
+
+      - name: Run Unit Tests
+        run: python test_transform_data.py
 
       - name: Run ETL Script
         env:
