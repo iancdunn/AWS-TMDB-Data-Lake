@@ -1,9 +1,9 @@
-# Daily Movie Trends: 2026-01-21
+# Daily Movie Trends: 2026-01-22
 
 |   Rank | Movie                                       |   Rating |
 |-------:|:--------------------------------------------|---------:|
-|      1 | The Rip                                     |    7.107 |
-|      2 | The SpongeBob Movie: Search for SquarePants |    6.5   |
-|      3 | xXx                                         |    5.983 |
-|      4 | 28 Years Later: The Bone Temple             |    7.2   |
-|      5 | Mercy                                       |    6.8   |
+|      1 | The Rip                                     |    7.077 |
+|      2 | The SpongeBob Movie: Search for SquarePants |    6.4   |
+|      3 | Mercy                                       |    7     |
+|      4 | Cosmic Princess Kaguya!                     |    0     |
+|      5 | Kidnapped: Elizabeth Smart                  |    7.7   |
