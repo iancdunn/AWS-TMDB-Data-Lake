@@ -1,10 +1,13 @@
+import boto3
 from datetime import datetime
 import os
 import pandas as pd
 import requests
+from io import StringIO
 
 #Retrieves credentials from environment variables to avoid hardcoding secrets
 API_KEY = os.environ.get('TMDB_API_KEY')
+AWS_BUCKET = os.environ.get('AWS_BUCKET_NAME')
 
 def extract_data():
     if not API_KEY:
@@ -30,12 +33,16 @@ def transform_data(data, curr_date):
 
     return rows
 
-def load_data(rows):
+def load_data(rows, curr_date):
     df = pd.DataFrame(rows)
-    fname = 'daily_movie_trends.csv'
+    csv_buffer = StringIO()
 
-    #Append mode 'a' enables incremental loading
-    df.to_csv(fname, mode = 'a', header = not os.path.exists(fname), index = False)
+    df.to_csv(csv_buffer, index = False)
+
+    s3_key = f"cleaned_data/{curr_date}_movies.csv"
+    s3 = boto3.client('s3')
+
+    s3.put_object(Bucket = AWS_BUCKET, Key = s3_key, Body = csv_buffer.getvalue())
 
     #Generates a static view for quick consumption
     top_5 = df.head(5)[['rank', 'title', 'vote_average']]
@@ -50,6 +57,4 @@ if __name__ == "__main__":
     curr_date = datetime.now().strftime('%Y-%m-%d')
     raw_data = extract_data()
     clean_data = transform_data(raw_data, curr_date)
-    load_data(clean_data)
-
-
+    load_data(clean_data, curr_date)
