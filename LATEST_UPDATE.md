@@ -1,9 +1,9 @@
-# Daily Movie Trends: 2026-02-11
+# Daily Movie Trends: 2026-02-12
 
-|   Rank | Movie               | Rating   |
-|-------:|:--------------------|:---------|
-|      1 | Primate             | 6.634    |
-|      2 | Marty Supreme       | 7.7      |
-|      3 | “Wuthering Heights” | 8.444    |
-|      4 | The Housemaid       | 7.187    |
-|      5 | State of Fear       | N/A      |
+|   Rank | Movie               |   Rating |
+|-------:|:--------------------|---------:|
+|      1 | State of Fear       |      4.8 |
+|      2 | Primate             |      6.6 |
+|      3 | Marty Supreme       |      7.7 |
+|      4 | “Wuthering Heights” |      7.9 |
+|      5 | Is This Thing On?   |      7.2 |
