@@ -1,4 +1,4 @@
-# Serverless TMDB Data Lake
+# Movie Trend Data Lake
 
 A fully automated ETL pipeline that tracks daily movie trends. This project leverages **GitHub Actions** as a compute engine to extract data from the **TMDB API**, transform it using **Pandas**, and load it into a secure **AWS S3 Data Lake**.
 
